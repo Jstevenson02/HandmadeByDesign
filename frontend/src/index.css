@@ -1,5 +1,18 @@
+/* header */
 main {
   min-height: 80vh;
+  background-color: #fff1ee;
+}
+
+header {
+  background-color: #836953;
+}
+/* footer */
+footer {
+  background-color: #836953;
+}
+.text-center {
+  color: #ffffff;
 }
 
 h3 {
@@ -8,6 +21,7 @@ h3 {
 
 h1 {
   font-size: 1.8rem;
+  color: #836953;
   padding: 1rem 0;
 }
 
@@ -23,11 +37,13 @@ h2 {
 .headerNav a:hover {
   margin: 4px;
   color: orange;
+  background-color: #836953;
 }
 
 .navbar .navbar-nav .nav-link {
   color: #fff;
   font-size: 1.1em;
+  background-color: #836953;
 }
 .navbar .navbar-nav .nav-link:hover {
   color: orange;
@@ -38,6 +54,7 @@ h2 {
 .carousel-item-prev,
 .carousel-item.active {
   display: flex;
+  background-color: #c09b92;
 }
 .carousel-caption {
   position: absolute;
