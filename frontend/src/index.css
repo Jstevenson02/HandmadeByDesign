@@ -1,102 +1,122 @@
 /* header */
+
 main .fillrChip {
-  min-height: 80vh;
-  background-color: #fff1ee;
+    min-height: 80vh;
+    background-color: #fff1ee;
 }
 
 header {
-  background-color: #836953;
+    background-color: #836953;
 }
+
+
 /* footer */
 
 footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  background-color: #836953;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    background-color: #836953;
 }
+
 .text-center {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 h3 {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 h1 {
-  font-size: 1.8rem;
-  color: #836953;
-  padding: 1rem 0;
+    font-size: 1.8rem;
+    color: #836953;
+    padding: 1rem 0;
 }
 
 h2 {
-  font-size: 1.4rem;
-  padding: 0.5rem 0;
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
 }
 
+
 /* product view */
+
 .btn {
-  background-color: #c09b92;
-  color: #fff;
+    background-color: #c09b92;
+    color: #fff;
 }
+
 .btn:hover {
-  background-color: #826961;
-  color: #fff;
+    background-color: #826961;
+    color: #fff;
 }
+
 .btn:disabled {
-  background-color: #40332f;
+    background-color: #40332f;
 }
+
 .rating span {
-  margin: 0.1rem;
+    margin: 0.1rem;
 }
+
 div.my-3 {
-  background-color: #c09b92;
+    background-color: #c09b92;
+}
+
+.bg-secondary {
+    background-color: #c09b92;
 }
 
 .headerNav a:hover {
-  margin: 4px;
-  color: orange;
-  background-color: #836953;
+    margin: 4px;
+    color: orange;
+    background-color: #836953;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #fff;
-  font-size: 1.1em;
-  background-color: #836953;
-}
-.navbar .navbar-nav .nav-link:hover {
-  color: orange;
+    color: #fff;
+    font-size: 1.1em;
+    background-color: #836953;
 }
 
+.navbar .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+
 /* carousel */
+
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
-  display: flex;
-  background-color: #c09b92;
+    display: flex;
+    background-color: #c09b92;
 }
+
 .carousel-caption {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
 
 .carousel-caption h2 {
-  color: #fff;
+    color: #fff;
 }
 
 .carousel img {
-  height: 300px;
-  padding: 30px;
-  margin: 40px;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+    height: 300px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .carousel a {
-  margin: 0 auto;
+    margin: 0 auto;
 }
+
 @media (max-width: 900px) {
-  .carousel-caption h2 {
-    font-size: 2.5vw;
-  }
+    .carousel-caption h2 {
+        font-size: 2.5vw;
+    }
 }
